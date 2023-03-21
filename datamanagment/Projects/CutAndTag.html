@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cut And Tag (CAT) &mdash; TOP Doc   documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/custom-admonitions.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/clipboard.min.js"></script>
+        <script src="../../_static/copybutton.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../../_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Deep Learning Embryo Classification (DLEC)" href="DeepLearningEmbryoClassification.html" />
+    <link rel="prev" title="Projects" href="README.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> TOP Doc 
+            <img src="../../_static/Oates_Logo-300x120.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../pipeline_olivier/README.html">Pipeline Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../commontools/README.html">Common tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../meetings/README.html">Meetings</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../README.html">Data management activities</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../ExecutiveSummary/README.html">Executive summary</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="README.html">Projects</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Cut And Tag (CAT)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#project-summary">Project summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#project-issues-caveats">Project issues/caveats</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#project-todo-list">Project TODO list</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#project-history">Project History</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="DeepLearningEmbryoClassification.html">Deep Learning Embryo Classification (DLEC)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Documentation.html">Documentation (DOC)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="EmbryoQualityMonitoring.html">Embryos Quality Monitoring (EQM)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="HiveMaintenanceRestructurationCleaning.html">HIVE Maintenance Restructuration Cleaning (HRMC)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="RealTimeCellTracking.html">Real-Time Cell Tracking (RTCT)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ZebrafishEmbryosDemultiplexing.html">Zebrafish Embryos Demultiplexing (ZED)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zenodo.html">Zenodo (ZEN)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zfishator.html">Z-Fishator linux machine (ZF)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../PointsOfDiscussion/README.html">Points of discussion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../CONTRIBUTING.html">Contributing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">External links:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://www.epfl.ch/labs/oateslab/">EPFL Oates Lab</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">TOP Doc </a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../README.html">Data management activities</a> &raquo;</li>
+          <li><a href="README.html">Projects</a> &raquo;</li>
+      <li>Cut And Tag (CAT)</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/EPFL-STD/documentation/blob/main/datamanagment/Projects/CutAndTag.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section class="tex2jax_ignore mathjax_ignore" id="cut-and-tag-cat">
+<span id="cat-project"></span><h1>Cut And Tag (CAT)<a class="headerlink" href="#cut-and-tag-cat" title="Permalink to this heading"></a></h1>
+<section id="project-summary">
+<h2>Project summary<a class="headerlink" href="#project-summary" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Status:</strong> Ongoing</p></li>
+<li><p><strong>Goals:</strong></p>
+<ul>
+<li><p>Use Cut&amp;Tag protocol <a class="reference external" href="https://www.protocols.io/view/cut-amp-tag-data-processing-and-analysis-tutorial-e6nvw93x7gmk/v1?step=9">here</a> but using Her7 data</p></li>
+</ul>
+</li>
+<li><p><strong>Contributors:</strong> Chloé, Olivier</p></li>
+<li><p><strong>Starting date:</strong> Jan. 2023</p></li>
+<li><p><strong>Tools involved:</strong> Z-fishator, Anaconda, Bioconda, R, python, etc..</p></li>
+<li><p><strong>Project documentation</strong> [Add link once created]</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="project-issues-caveats">
+<h2>Project issues/caveats<a class="headerlink" href="#project-issues-caveats" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>None</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="project-todo-list">
+<h2>Project TODO list<a class="headerlink" href="#project-todo-list" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Start the protocol with zebrafish sequencing data</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="project-history">
+<h2>Project History<a class="headerlink" href="#project-history" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>2023</p>
+<ul>
+<li><p>February</p>
+<ul>
+<li><p>Started to reproduce the tutorial, stopped when we got the sequencing data on the machine</p></li>
+<li><p>Not sure yet the fraction of the analysis part that actually needs Z-fishator</p>
+<ul>
+<li><p>Need to test with the Zebrafish data to see if it is manageable on a laptop</p></li>
+</ul>
+</li>
+<li><p>Got the Zebrafish sequencing data on Z-fishator</p></li>
+</ul>
+</li>
+<li><p>January:</p>
+<ul>
+<li><p>Got a <code class="docutils literal notranslate"><span class="pre">conda</span></code> environment with all the tools running on Z-fishator</p>
+<ul>
+<li><p>took a while to solve strange dependencies issues</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="README.html" class="btn btn-neutral float-left" title="Projects" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="DeepLearningEmbryoClassification.html" class="btn btn-neutral float-right" title="Deep Learning Embryo Classification (DLEC)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, EPFL.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
